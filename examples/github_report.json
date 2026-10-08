@@ -1,0 +1,57 @@
+{
+  "url": "https://github.com",
+  "score": 60,
+  "max_score": 100,
+  "load_time_seconds": 0.06,
+  "checks": [
+    {
+      "name": "Page title",
+      "passed": false,
+      "weight": 15,
+      "explanation": "Title is 61 characters. Google typically displays ~50-60 characters, so titles outside roughly 10-60 characters get cut off or look thin.",
+      "detail": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub"
+    },
+    {
+      "name": "Meta description",
+      "passed": false,
+      "weight": 15,
+      "explanation": "Meta description is 186 characters \u2014 search engines usually truncate around 155-160, so the end of it won't be shown.",
+      "detail": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity."
+    },
+    {
+      "name": "Heading structure",
+      "passed": true,
+      "weight": 15,
+      "explanation": "Exactly one <h1> found, giving search engines a clear main-topic signal.",
+      "detail": "The future of building happens together"
+    },
+    {
+      "name": "Image alt text",
+      "passed": false,
+      "weight": 10,
+      "explanation": "17 of 24 images are missing alt text. Search engines (and screen readers) can't 'see' an image \u2014 alt text is the only way they know what it shows.",
+      "detail": ""
+    },
+    {
+      "name": "Load time",
+      "passed": true,
+      "weight": 15,
+      "explanation": "Page responded in 0.06s, within a reasonable range.",
+      "detail": "564 KB response size"
+    },
+    {
+      "name": "Mobile viewport",
+      "passed": true,
+      "weight": 15,
+      "explanation": "Viewport meta tag present, so mobile browsers will render the page at the correct width.",
+      "detail": ""
+    },
+    {
+      "name": "Internal links",
+      "passed": true,
+      "weight": 15,
+      "explanation": "Found 125 internal links, helping search engines navigate the page's structure.",
+      "detail": ""
+    }
+  ]
+}

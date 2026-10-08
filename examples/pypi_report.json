@@ -1,0 +1,57 @@
+{
+  "url": "https://pypi.org",
+  "score": 90,
+  "max_score": 100,
+  "load_time_seconds": 0.05,
+  "checks": [
+    {
+      "name": "Page title",
+      "passed": true,
+      "weight": 15,
+      "explanation": "Title exists and is a reasonable length for search results.",
+      "detail": "PyPI \u00b7 The Python Package Index"
+    },
+    {
+      "name": "Meta description",
+      "passed": true,
+      "weight": 15,
+      "explanation": "Meta description exists and fits within the typical search-result display length.",
+      "detail": "The Python Package Index (PyPI) is a repository of software for the Python programming language."
+    },
+    {
+      "name": "Heading structure",
+      "passed": true,
+      "weight": 15,
+      "explanation": "Exactly one <h1> found, giving search engines a clear main-topic signal.",
+      "detail": "Find, install and publish Python packages with the Python Package Index"
+    },
+    {
+      "name": "Image alt text",
+      "passed": false,
+      "weight": 10,
+      "explanation": "15 of 16 images are missing alt text. Search engines (and screen readers) can't 'see' an image \u2014 alt text is the only way they know what it shows.",
+      "detail": ""
+    },
+    {
+      "name": "Load time",
+      "passed": true,
+      "weight": 15,
+      "explanation": "Page responded in 0.05s, within a reasonable range.",
+      "detail": "27 KB response size"
+    },
+    {
+      "name": "Mobile viewport",
+      "passed": true,
+      "weight": 15,
+      "explanation": "Viewport meta tag present, so mobile browsers will render the page at the correct width.",
+      "detail": ""
+    },
+    {
+      "name": "Internal links",
+      "passed": true,
+      "weight": 15,
+      "explanation": "Found 27 internal links, helping search engines navigate the page's structure.",
+      "detail": ""
+    }
+  ]
+}
